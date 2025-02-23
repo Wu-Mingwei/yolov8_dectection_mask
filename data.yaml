@@ -1,0 +1,9 @@
+train: C:\Users\wming\OneDrive\Desktop\kaggle\yolov8\datasets\images\trains   # 训练集图片路径（相对路径）
+val: C:\Users\wming\OneDrive\Desktop\kaggle\yolov8\datasets\images\vals       # 验证集图片路径
+test:                   # 测试集路径（可选）
+
+# 类别名称（根据你的数据集修改）
+names:
+  0: with_mask      # 假设你的数据集中有口罩类别
+  1: without_mask   # 无口罩类别
+  2: mask_weared_incorrect # 口罩带错
